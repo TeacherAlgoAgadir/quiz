@@ -6,44 +6,59 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #c6c0c0;
 }
 
 .quiz-container {
-    background-color: #fff;
-    padding: 30px;
+    background-color: #f1eded;
+    height: 300px ;
+    width: 620px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
 }
 
-.question {
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
+.question-container{
+    background-color: #c6c0c0;
+    border-radius: 10PX;
+    text-align: left;
+    height: 200px;
+    width: 300px;
+    margin-left: 30px;
 }
-
-.question:hover .question-text {
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transform: translateY(-5px);
-    transition: all 0.3s ease-in-out;
-}
-
 .question-text {
-    padding: 10px;
+
 }
 
 .options {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding-top: 20px;
+    margin-top: -30px;
 }
 
 .option {
     margin-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 .option input[type="radio"] {
     margin-right: 10px;
+
+}
+.option input[type="radio"]:checked + label {
+    /* Define the appearance when checked, e.g., change background color */
+    background-color: rgb(69, 1, 255);
+}
+
+.next {
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: #e5dfdf;
+}
+.next:hover {
+    background-color: rgb(169, 155, 155);
 }

@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Quiz</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Quiz.css">
 </head>
 <body>
     <div class="quiz-container">
-        <div class="question" id="question">
-            <h2 id="question-text">Placeholder Question</h2>
+        
+        <div class="question-container">
+        <h2 class="question-text">
+            Test
+        </h2>
+        </div>
+
+        <div class="options-container">
             <ul class="options">
-                <li class="option"><input type="radio" name="answer" value="a"> A. Option 1</li>
-                <li class="option"><input type="radio" name="answer" value="b"> B. Option 2</li>
-                <li class="option"><input type="radio" name="answer" value="c"> C. Option 3</li>
-                <li class="option"><input type="radio" name="answer" value="d"> D. Option 4</li>
+                <li class="option"><label for="option1" ><input type="radio" name="answer" value="a"> A. Option 1</label></li>
+                <li class="option"><label for="option2" ><input type="radio" name="answer" value="b"> B. Option 2</label></li>
+                <li class="option"><label for="option3" ><input type="radio" name="answer" value="c"> C. Option 3</label></li>
+                <li class="option"><label for="option4" ><input type="radio" name="answer" value="d"> D. Option 4</label></li>
             </ul>
+        </div>
+        <div class="next">
+            <img height="30px" src="https://seeklogo.com/images/R/right-arrow-pictogram-logo-1F46419D5D-seeklogo.com.png">
         </div>
     </div>
     <script src="script.js"></script>
