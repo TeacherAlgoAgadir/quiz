@@ -7,6 +7,8 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #c6c0c0;
+    background-image: url(/Quiz/db34d40b271fb59477621550bf73ea0b.jpg);
+    background-size:cover;
 }
 
 .quiz-container {
@@ -20,7 +22,7 @@ body {
 }
 
 .question-container{
-    background-color: #c6c0c0;
+    background-color: #e3ff74;
     border-radius: 10PX;
     text-align: left;
     height: 200px;
@@ -39,17 +41,17 @@ body {
 
 .option {
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     cursor: pointer;
 }
-
-.option input[type="radio"] {
-    margin-right: 10px;
-
+.option button{
+    border-radius: 5px;
+    padding: 15px;
 }
-.option input[type="radio"]:checked + label {
-    /* Define the appearance when checked, e.g., change background color */
-    background-color: rgb(69, 1, 255);
+.option button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+
 }
 
 .next {
