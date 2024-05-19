@@ -1,0 +1,5 @@
+let QuizData = [
+    {Ques
+
+    }
+]

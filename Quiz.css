@@ -28,9 +28,10 @@ body {
     height: 200px;
     width: 300px;
     margin-left: 30px;
+    display: flex;
 }
 .question-text {
-
+    padding-left: 20px;
 }
 
 .options {
@@ -51,6 +52,7 @@ body {
 .option button:hover {
     background-color: lightblue;
     cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(132, 131, 159, 0.677);
 
 }
 
@@ -59,8 +61,15 @@ body {
     border-radius: 5px;
     margin-left: 50px;
     padding: 5px;
-    background-color: #e5dfdf;
+    background-color: #f1eded;
+    cursor: pointer; 
+}
+.next img {
+    padding: 5px;
+    padding-top: 8px ;
+    padding-left: 8px;
 }
 .next:hover {
-    background-color: rgb(169, 155, 155);
+    background-color: lightblue;
+    box-shadow: 0px 5px 15px rgba(132, 131, 159, 0.677);
 }
